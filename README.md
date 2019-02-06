@@ -1,8 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 [![Greenkeeper badge](https://badges.greenkeeper.io/guiportooo/todo-app.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/guiportooo/todo-app.svg?branch=master)](https://travis-ci.org/guiportooo/todo-app)
+
+## Available Scripts
 
 In the project directory, you can run:
 
