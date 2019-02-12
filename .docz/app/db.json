@@ -1,0 +1,32 @@
+{
+  "config": {
+    "title": "Todo App",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {}
+  },
+  "entries": {
+    "src/HelloWorld.mdx": {
+      "name": "Hello world",
+      "id": "23c2599045706798697701d6e9ceb51d",
+      "filepath": "src/HelloWorld.mdx",
+      "link": null,
+      "slug": "src-hello-world",
+      "route": "/src-hello-world",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "Hello world"
+        }
+      ]
+    }
+  }
+}
