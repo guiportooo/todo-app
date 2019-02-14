@@ -1,0 +1,35 @@
+---
+name: EditInput
+---
+
+import { Playground, PropsTable } from 'docz';
+import EditInput from './EditInput';
+
+# EditInput
+
+<PropsTable of={EditInput} />
+
+## Basic usage
+
+### With value
+
+<Playground>
+  <EditInput
+    htmlId="edit-input"
+    name="edit-input"
+    value="Something"
+    onChange={() => {}}
+    onClick={() => {}}
+  />
+</Playground>
+
+### With no value
+
+<Playground>
+  <EditInput
+    htmlId="edit-input"
+    name="edit-input"
+    onChange={() => {}}
+    onClick={() => {}}
+  />
+</Playground>

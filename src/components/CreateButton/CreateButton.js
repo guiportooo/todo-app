@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { FaCheck } from 'react-icons/fa';
 
 const Button = styled.button`
   padding: 0.85em 1em;
@@ -27,7 +28,7 @@ const Button = styled.button`
 
 const CreateButton = ({ disabled, onClick }) => (
   <Button disabled={disabled} onClick={onClick}>
-    Create
+    <FaCheck />
   </Button>
 );
 
