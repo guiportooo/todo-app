@@ -22,9 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< Updated upstream
-.docz
-=======
 #docz
 /.docz
->>>>>>> Stashed changes
