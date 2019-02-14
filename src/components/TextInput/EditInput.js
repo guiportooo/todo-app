@@ -11,7 +11,7 @@ const OutterDiv = styled.div`
 const TextInput = styled.input`
   flex: 1;
   border: none;
-  border-bottom: 2px solid ${props => props.theme.primaryLight};
+  border-bottom: 3px solid ${props => props.theme.primaryLight};
   font-size: 2rem;
   box-sizing: border-box;
 `;
