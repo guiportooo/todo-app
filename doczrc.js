@@ -1,3 +1,3 @@
 export default {
-  wrapper: 'src/ThemeWrapper'
+  wrapper: 'src/components/ThemeWrapper'
 };
