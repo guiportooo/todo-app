@@ -1,0 +1,34 @@
+---
+name: TextInput
+---
+
+import { Playground, PropsTable } from 'docz';
+import TextInput from './TextInput';
+
+# TextInput
+
+<PropsTable of={TextInput} />
+
+## Basic usage
+
+### With value
+
+<Playground>
+  <TextInput
+    htmlId="edit-input"
+    name="edit-input"
+    value="Something"
+    onChange={() => {}}
+  />
+</Playground>
+
+### With no value
+
+<Playground>
+  <TextInput
+    htmlId="edit-input"
+    name="edit-input"
+    onChange={() => {}}
+    onClick={() => {}}
+  />
+</Playground>

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import TextInput from '../TextInput';
 import CreateButton from '../CreateButton';
 
 const OutterDiv = styled.div`
@@ -8,19 +9,15 @@ const OutterDiv = styled.div`
   display: flex;
 `;
 
-const TextInput = styled.input`
+const Input = styled(TextInput)`
   flex: 1;
-  border: none;
-  border-bottom: 3px solid ${props => props.theme.primaryLight};
-  font-size: 2rem;
-  box-sizing: border-box;
 `;
 
 const disableButton = value => value === undefined || value === '';
 
 const EditInput = ({ htmlId, name, placeholder, value, onChange, onClick }) => (
   <OutterDiv>
-    <TextInput
+    <Input
       type="text"
       htmlId={htmlId}
       name={name}
