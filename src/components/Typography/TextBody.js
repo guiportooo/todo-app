@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const TextBody = styled.label`
+const TextBody = styled.span`
   font-family: 'SF Pro Text';
   font-size: 16px;
   line-height: 24px;
