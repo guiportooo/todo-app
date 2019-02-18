@@ -1,0 +1,28 @@
+---
+name: CardListItem
+---
+
+import { Playground, PropsTable } from 'docz';
+import CardListItem from './CardListItem';
+
+# CardListItem
+
+<PropsTable of={CardListItem} />
+
+## Basic usage
+
+<Playground>
+  <ul>
+    <CardListItem>
+      <h3>Header</h3>
+      <span>Text body</span>
+    </CardListItem>
+    <CardListItem>
+      <h3>Header</h3>
+    </CardListItem>
+    <CardListItem>
+      <span>Text body</span>
+    </CardListItem>
+    <CardListItem>Whatever</CardListItem>
+  </ul>
+</Playground>

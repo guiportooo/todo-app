@@ -1,7 +1,7 @@
 const themes = {
   main: {
     black: '#1f1c2d',
-    white: '#fffafa',
+    white: '#fff',
     primary: '#409bea',
     primaryLight: '#ddf1ff',
     secondary: '#ebebeb',
