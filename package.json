@@ -43,7 +43,7 @@
   "devDependencies": {
     "@emotion/core": "^10.0.7",
     "docz": "^0.13.7",
-    "docz-theme-default": "^0.13.7"
+    "docz-theme-default": "^1.0.2"
   },
   "resolutions": {
     "ansi-styles": "^3.2.0"
