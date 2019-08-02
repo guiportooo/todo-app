@@ -41,7 +41,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@emotion/core": "^10.0.7",
+    "@emotion/core": "^10.0.15",
     "docz": "^0.13.7",
     "docz-theme-default": "^0.13.7"
   },
